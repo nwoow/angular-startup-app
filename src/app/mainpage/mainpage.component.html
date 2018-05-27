@@ -1,0 +1,29 @@
+<div class="jumbotron text-center">
+<h1>My First Bootstrap main page Page</h1>
+<p>Resize this responsive page to see the effect!</p>
+<button (click)="myClickFunction()">
+  click
+</button>
+
+<button (click)="bar()">
+  click
+</button>
+{{name}}
+</div>
+
+<div class="container">
+  <h3>{{errorMsg}}</h3>
+  <ul *ngFor="let employee of employees">
+    <li>{{employee.name}}</li>
+  </ul>
+  <div id="chart_div"></div>
+
+
+</div>
+
+<div class="container">
+
+  <div id="chart_div1"></div>
+
+
+</div>
